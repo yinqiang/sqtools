@@ -24,10 +24,10 @@ Usage:
 
 Configure file, json type
     {
-      source: "data.txt",
-      output: "output.sql",
-      column: 3,
-      format: [
+      "source": "data.txt",
+      "output": "output.sql",
+      "column": 3,
+      "format": [
 	    "update users set name='#2#', phone=#3#",
 		"where uid='#1#';"
 	  ]

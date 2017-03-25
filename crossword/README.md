@@ -8,10 +8,10 @@ crossword config.json
 ## Configure file, json type:
 ```json
 {
-  source: "data.txt",
-  output: "output.sql",
-  column: 4,
-  format: [
+  "source": "data.txt",
+  "output": "output.sql",
+  "column": 4,
+  "format": [
     "update users set name='#2#', phone=#3# where uid='#1#';",
 	"",
 	"insert into orders (bookid, uid) values (#4#, #1#)",
