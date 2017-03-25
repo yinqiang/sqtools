@@ -1,0 +1,10 @@
+{
+    "source": "data.txt",
+	"output": "output.sql",
+	"column": 4,
+	"format": [
+		"update users set name='#1#' where phone='#3#';",
+		"update userinfo set age='#2#', city='#4#' where phone='#3#';",
+		""
+	]
+}
